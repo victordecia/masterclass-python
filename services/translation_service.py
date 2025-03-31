@@ -40,7 +40,6 @@ def capitalize_word(word: str, is_uppercase: bool) -> str:
     return word
 
 def consonant_translation(text: str) -> str:
-    """Translate a text into Pig Latin by handling vowels, consonants, and punctuation."""
     translated_words = []
 
     for word in text.split():
