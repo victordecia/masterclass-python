@@ -30,8 +30,8 @@ Before you begin, make sure you have the following installed on your machine:
 First, clone the repository to your local machine:
 
 ```bash
-git clone <repository_url>
-cd <repository_folder>
+git clone https://github.com/victordecia/masterclass-python.git
+cd masterclass-python
 ```
 
 ## 2. Create a Virtual Environment (Recommended)
