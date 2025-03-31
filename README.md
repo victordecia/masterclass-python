@@ -2,7 +2,7 @@
 
 1. Lowercase consonant. Write a function that performs this translation (pig -> igpay) and write a test that validates the function
 
-2. `current implementation at` --> Lowercase vowel. Modify the function to handle this translation (egg -> eggay) and write a test that validates that this and all previous test pass.
+2. Lowercase vowel. Modify the function to handle this translation (egg -> eggay) and write a test that validates that this and all previous test pass.
 
 3. Uppercase & multiple consonants. Modify the function to handle this translation (Hello -> Ellohay) and write a test that validates that this and all previous test pass. 
 
