@@ -1,4 +1,19 @@
-```markdown
+# Masterclass Test
+
+1. Lowercase consonant. Write a function that performs this translation (pig -> igpay) and write a test that validates the function
+
+2. `current implementation at` --> Lowercase vowel. Modify the function to handle this translation (egg -> eggay) and write a test that validates that this and all previous test pass.
+
+3. Uppercase & multiple consonants. Modify the function to handle this translation (Hello -> Ellohay) and write a test that validates that this and all previous test pass. 
+
+4. Uppercase vowel. Modify the function to handle this translation (Orange -> Orangeay) and write a test that validates that this and all previous test pass.
+
+5. Multiple consonants. Modify the function to handle this translation (Struck -> Uckstray) and write a test that validates that this and all previous test pass.
+
+6. Multiple words. Modify the function to handle this translation (Hello world -> Ellohay orldway) and write a test that validates that this and all previous test pass.
+
+7. Punctuation. Modify the function to handle this translation (Hello, world. -> Ellohay, orldway.) and write a test that validates that this and all previous test pass.
+
 # FastAPI Application
 
 This is a simple FastAPI application. Below are the instructions for setting up, running, and testing the app locally, along with installing the necessary dependencies.
@@ -42,7 +57,7 @@ Once activated, your terminal prompt will show the virtual environment name.
 ## 3. Install Dependencies
 
 ```bash
-pip install fastapi uvicorn pytest
+pip install fastapi uvicorn pytest httpx
 ```
 
 This will install the following core dependencies:
@@ -122,8 +137,3 @@ deactivate
   ```bash
   pip install pytest
   ```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
